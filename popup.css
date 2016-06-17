@@ -1,0 +1,13 @@
+html {
+    font-family: fantasy;
+    font-size: 20px;
+    width: 750px;
+    background-image: url(assets/backdrop.png);
+    color:aliceblue;
+}
+a {
+    color:aqua;
+}
+li {
+    list-style-image: url(assets/bulet.png);
+}

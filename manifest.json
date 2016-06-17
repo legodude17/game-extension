@@ -1,0 +1,28 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "Games",
+  "version": "0.0.1",
+
+  // Recommended
+  "description": "A test extension with some games",
+
+  // Pick one (or none)
+  "browser_action": {
+      "default_icon": {                    // optional
+          "32": "assets/icon32.png"          // optional
+      },
+      "default_title": "Games",      // optional; shown in tooltip
+      "default_popup": "popup.html"        // optional
+  },
+  // Optional
+    "icons": {
+        "32": "assets/icon32.png" 
+    },
+  "author": "JDB",
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  },
+  "homepage_url": "http://designcodeteam.weebly.com",
+  "permissions": ["tabs"]
+}
